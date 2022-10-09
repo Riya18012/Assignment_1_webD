@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initialscaled=1,user-scaleble=no" />
+        <link rel="stylesheet" type="text/css" href="assignment_1.css">
+        <title>A Survey Form</title>
+    </head>
+    <body>
+        <div class="heading"> 
+            <h1 id="head" >A Survey Form</h1>
+        </div>
+        <form action="#">
+            <div id="content1">
+                <label for="name">Name</label><br><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" class="box"><br><br>
+                <label for="email">Email</label><br><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email" class="box"><br><br>
+                <label for="age">Age</label><br><br>
+                <input type="text" name="age" id="age" placeholder="Enter your age" class="box"><br><br>
+                <label>Which option best describes you?</label><br><br>
+            
+            <div id="option1">
+                <select>
+                    <option name="Select your role">Select your role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time job">Full time job</option>
+                    <option value="Full time learner">Full time learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div><br>
+            <label id="head1">Would you recommend my Coaching to a friend? </label><br>
+            <input type="radio" name="answer" class="larger" id="Yes" value="Yes">Yes<br>
+            <input type="radio" name="answer" class="larger" id="No" value="No">No<br>
+            <input type="radio" name="answer" class="larger" id="Maybe" value="Maybe">Maybe<br><br>
+            <label id="head2">Languages and Frameworks known (Check all that apply)</label><br>
+            <div id="content2">
+                <input type="checkbox" name="checkbox" class="larger"><label>C</label><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>Java</label><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>Python</label><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>Javascript</label><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>React</label><br><br>
+            </div>
+            <label id="head2">Any comments or suggestion?</label><br>
+            <textarea placeholder="Enter your comment here..." id="comment" cols="96" rows="7" ></textarea><br>
+            `<button><h3>Submit</h3></button>
+        </form>
+    </body>
+</html> 
